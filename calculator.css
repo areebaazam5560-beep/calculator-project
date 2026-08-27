@@ -1,0 +1,85 @@
+
+body{
+    display: flex;
+    justify-content: center;
+  padding-top: 80px;
+  
+}
+.caculator{
+background-color: rgb(71, 91, 91);
+height: 450px;
+width: 330px;
+padding-left: 18px;
+ border-radius: 5px;
+}
+.container{
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    height: 90px;
+ 
+}
+#scrn{
+    border: 0px;
+    height: 50px;
+    align-self: center;
+    width: 280px;
+    margin-right: 20px;
+    box-shadow: 2px 2px 10px black;
+}
+
+.row1{
+    display: flex;
+    justify-content: center;
+}
+.numbr{
+    align-self: center;
+    margin-right: 10px;
+    width: 60px;
+    height: 60px;
+    margin-top: 10px;
+    background-color: black;
+    color: white;
+    border: 0px;
+    border-radius: 50%;
+    box-shadow: 1px 1px 10px rgb(76, 75, 75);
+}
+.numbr:active{
+    transform: scale(0.5);
+}
+.numbr:hover{
+    background-color: white;
+    color: black;
+    box-shadow: 2px 2px 10px black;
+    font-size: 20px;
+}
+#clear{
+    background-color: grey;
+}
+#modulus{
+    background-color: grey;
+}
+#backspace{
+    background-color: grey;
+}
+#div{
+    background-color: grey;
+}
+#sub{background-color: grey;}
+#addition{background-color: grey;}
+#mul{background-color: grey;}
+#equal{
+  background-color: rgb(225, 126, 34);
+}
+.row2{
+    display: flex;
+    justify-content: center;
+}
+.row3{
+    display: flex;
+    justify-content: center;
+}
+.row4{
+    display: flex;
+    justify-content: center;
+}
