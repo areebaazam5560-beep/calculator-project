@@ -2,8 +2,7 @@
 body{
     display: flex;
     justify-content: center;
-  padding-top: 80px;
-  
+  padding-top: 80px; 
 }
 .caculator{
 background-color: rgb(71, 91, 91);
@@ -17,7 +16,6 @@ padding-left: 18px;
     display: flex;
     justify-content: center;
     height: 90px;
- 
 }
 #scrn{
     border: 0px;
