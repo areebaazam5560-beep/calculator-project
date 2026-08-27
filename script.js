@@ -102,10 +102,9 @@ document.addEventListener("keydown",(event)=>{
      event.preventDefault();
      try{
  scren.value =new Function('return '+scren.value)();
-   }
+  }
    catch(error){
-    scren.value="error";
-   }
+    scren.value="error";  }
   }
   if(key ==='c'||key ==='Escape'){
     scren.value ="";
